@@ -22,3 +22,16 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+.htaccess
+
+### Text ###
+css.php
+rpc/
+sites/site*/admin/
+sites/site*/private/
+sites/site*/public/admin/
+sites/site*/public/setup/
+sites/site*/public/theme/
+textpattern/
+HISTORY.txt
+README.txt
