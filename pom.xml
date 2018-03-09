@@ -35,7 +35,78 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+
+        <!-- DKPro -->
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.opennlp-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.io.text-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.languagetool-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.snowball-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.io.json-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.keyphrases</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.keyphrases</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.keyphrases</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.keyphrases.core-asl</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.frequency-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.posfilter-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.ngrams-asl</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-ner-de-dewac_175m_600.crf</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>maven-central</id>
+            <name>maven central</name>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+    </repositories>
 
 	<build>
 		<plugins>

@@ -1,0 +1,32 @@
+Ratenkauf
+Mit dem Ratenkauf* zahlst Du Deine Rechnung ganz bequem in 3 oder 6 Monatsraten.
+
+Auf Deiner Rechnung sind alle Zahlungstermine und auch die jeweiligen Teilbeträge angegeben.
+Du kannst die Teilbeträge selbstständig überweisen.
+* Bonität vorausgesetzt und nicht in Verbindung mit Kreditkartenzahlung, PayPal oder sofortüberweisung.
+
+Beispiel-Rechnung
+
+Wenn Du Dich für 3 Monatsraten entscheidest, ergibt sich bei einem Bestellwert von 150 € ein Aufschlag von 3,72€ (eff. Jahreszins 15,92 %):
+1. Rate: 51,32€
+2. Rate: 51,20€
+3. Rate: 51,20€
+Gesamt: 153,72€
+
+Bei 6 Monatsraten ergibt sich ein Aufschlag von 6,51€ (eff. Jahreszins 15,92 %):
+1. Rate: 26,26€
+2. Rate: 26,05€
+3. Rate: 26,05€
+4. Rate: 26,05€
+5. Rate: 26,05€
+6. Rate: 26,05€
+Gesamt: 156,51€
+
+
+
+Überweisung bitte an:
+
+Hanseatic Bank Hamburg
+IBAN: DE68 2012 0700 3100 7555 55
+BIC: HSTBDEHH
+Bitte gib als Verwendungszweck Deine Kundennummer an.
