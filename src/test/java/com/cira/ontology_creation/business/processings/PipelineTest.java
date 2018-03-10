@@ -5,6 +5,8 @@ import java.io.IOException;
 import org.apache.uima.UIMAException;
 import org.junit.Test;
 
+import com.cira.ontology_creation.domains.Pipeline;
+
 public class PipelineTest {
 
     @Test

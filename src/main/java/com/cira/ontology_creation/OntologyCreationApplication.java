@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
-import com.cira.ontology_creation.business.processings.Pipeline;
+import com.cira.ontology_creation.domains.Pipeline;
 
 @SpringBootApplication
 @PropertySources({
