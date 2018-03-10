@@ -1,5 +1,6 @@
 package com.cira.ontology_creation;
 
+import org.apache.uima.fit.pipeline.JCasIterable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -8,7 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
-import com.cira.ontology_creation.domains.Pipeline;
+import com.cira.ontology_creation.business.recognition.pipelines.PostprocessingPipeline;
+import com.cira.ontology_creation.business.recognition.pipelines.PreprocessingPipeline;
 
 @SpringBootApplication
 @PropertySources({
@@ -18,7 +20,9 @@ import com.cira.ontology_creation.domains.Pipeline;
 public class OntologyCreationApplication implements CommandLineRunner {
 
     @Autowired
-    private Pipeline pipeline;
+    private PreprocessingPipeline preprocessingPipeline;
+    @Autowired
+    private PostprocessingPipeline postprocessingPipeline;
     @Value("${pipeline.input.documents}")
     private String s;
 
@@ -28,6 +32,7 @@ public class OntologyCreationApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        pipeline.run();
+        JCasIterable jCasIterable = preprocessingPipeline.process();
+        postprocessingPipeline.process(jCasIterable);
     }
 }
